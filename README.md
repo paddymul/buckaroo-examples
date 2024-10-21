@@ -5,7 +5,7 @@
 xeus-python + JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
-
+[https://paddymul.github.io/jupyterlite-xeus](https://paddymul.github.io/jupyterlite-xeus)
 https://jupyterlite.github.io/xeus-python-demo/notebooks/?path=demo.ipynb
 
 ## ≠ How does it compare to the Pyodide kernel?
