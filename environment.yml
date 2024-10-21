@@ -5,7 +5,8 @@ channels:
 dependencies:
   - python=3.11
   - xeus-python
-  - ipycanvas
   - pandas
-  - polars
-  - pyarrow
+  - ipywidgets
+  - pip
+  - pip:
+    - requests
