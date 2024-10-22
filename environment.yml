@@ -7,3 +7,7 @@ dependencies:
   - xeus-python
   - pandas
   - ipywidgets
+  - pip
+  - pip:
+    - requests
+    - ../buckaroo-0.7.6-py3-none-any.whl
