@@ -54,10 +54,10 @@ Only ``no-arch`` packages from ``conda-forge`` and packages from ``emscripten-fo
 ![](noarch.png)
 - **How do I know if my package is on ``emscripten-forge``?** You can see the list of packages pubished on ``emscripten-forge`` [here](https://beta.mamba.pm/channels/emscripten-forge?tab=packages). In case your package is missing, or it's not up-to-date, feel free to open an issue or a PR on https://github.com/emscripten-forge/recipes.
 
-## create a local env
+## create a local env for buidling
 ```sh
-conda env create -f environment.yml -n jupyterlite-target
-conda activate jupyterlite-target
+conda env create -f build-environment.yml  -n jupyterlite-target
+conda activate jupyterlite-build
 ```
 
 ## local build
@@ -67,4 +67,10 @@ jupyter lite build --contents content
 cd _output
 python -m http.server
 
+```
+
+As a one-liner
+```sh
+#my jupyterlite checkout lives in ~/code/jupyterlite-xeus
+cd ~/code/jupyterlite-xeus/ ; rm -rf _output ;  time jupyter lite build --contents content && cd _output && python -m http.server
 ```
