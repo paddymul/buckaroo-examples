@@ -7,7 +7,3 @@ dependencies:
   - xeus-python
   - pandas
   - ipywidgets
-  - pip
-  - pip:
-    - requests
-    - buckaroo
