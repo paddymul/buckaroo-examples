@@ -1,12 +1,12 @@
 # xeus-python + JupyterLite demo
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/xeus-python-demo/notebooks/?path=demo.ipynb)
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://paddymul.github.io/buckaroo-examples/lab/index.html?path=Full-tour.ipynb)
+
 
 xeus-python + JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
 
 ## ✨ Try it in your browser ✨
-[https://paddymul.github.io/jupyterlite-xeus](https://paddymul.github.io/jupyterlite-xeus)
-https://jupyterlite.github.io/xeus-python-demo/notebooks/?path=demo.ipynb
+[https://paddymul.github.io/buckaroo-examples/lab/index.html?path=Full-tour.ipynb](https://paddymul.github.io/buckaroo-examples/lab/index.html?path=Full-tour.ipynb)
 
 ## ≠ How does it compare to the Pyodide kernel?
 
@@ -71,6 +71,6 @@ python -m http.server
 
 As a one-liner
 ```sh
-#my jupyterlite checkout lives in ~/code/jupyterlite-xeus
-cd ~/code/jupyterlite-xeus/ ; rm -rf _output ;  time jupyter lite build --contents content && cd _output && python -m http.server
+#my jupyterlite checkout lives in  ~/code/buckaroo-examples/
+cd ~/code/buckaroo-examples/  ; rm -rf _output ;  time jupyter lite build --contents content && cd _output && python -m http.server
 ```
