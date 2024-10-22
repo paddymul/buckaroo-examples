@@ -57,7 +57,7 @@ Only ``no-arch`` packages from ``conda-forge`` and packages from ``emscripten-fo
 ## create a local env
 ```sh
 conda env create -f environment.yml -n jupyterlite-target
-conda activate jupyterlit-target
+conda activate jupyterlite-target
 ```
 
 ## local build
