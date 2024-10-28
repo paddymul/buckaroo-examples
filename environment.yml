@@ -7,9 +7,9 @@ dependencies:
   - xeus-python
   - pandas
   - ipywidgets
-  - pyarrow
   - pip
   - pip:
     - requests
     - buckaroo
+    - pyarrow
 #    - ../../buckaroo/dist/buckaroo-0.7.8-py3-none-any.whl  #relative path to a locally built wheel
